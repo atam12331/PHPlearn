@@ -147,7 +147,7 @@ public function getData()
 
 ---
 
-### Query : Where Nesterd
+### Query : Where Nested
 Where bertingkat, dalam kasus ini kita akan memberi data posts dengan dua kondisi, yaitu kondisi yang pertama id = 1 dan author_id = 1 juga sehingga datanya kodenya sebagai berikut :
 ```
  public function getData()
@@ -167,11 +167,12 @@ Where bertingkat, dalam kasus ini kita akan memberi data posts dengan dua kondis
         return $data;
     }
 ```
-### Query Builder : Where In
+
 kode diatas bisa kombinasikan dengan and or untuk menadpatkan data yang diinginkan
 
 ---
 
+### Query Builder : Where In
 where In adalah kondisi untuk menampilakn kondisi yang memenuhi pada variable sebelumnya yang diberikan, sehingga kodenya menjadi seperti ini :
 ```
 public function getData()
