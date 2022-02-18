@@ -1,0 +1,21 @@
+# Tutorial Codeigniter 4 untuk Pemula | #12. Cara Upload Gambar di Codeigniter
+## Upload Gambar
+Ketika upload gambar jangan lupa untuk add ini
+
+```
+<form action="" method="POST" enctype="multipart/form-data">
+    <codingan>
+</form>
+```
+
+Jika diperhatikan lebih detail ada bagian multipart/form-data. dari sini bisa kita buat ketika form akan mengirimkan gambar
+
+---
+
+## Penmbuatan aksi di controller
+suapaya ketika file yang diupload oleh kta namanya terpampang maka menggunakan aksi kode seperti berikut :
+
+```
+gambar = $this->request->getFile('gambar');
+                echo "Nama file gambar : " . $gambar->getName();
+```
