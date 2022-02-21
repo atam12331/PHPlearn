@@ -12,6 +12,8 @@ Jika diperhatikan lebih detail ada bagian multipart/form-data. dari sini bisa ki
 
 ---
 
+---
+
 ## Penmbuatan aksi di controller
 suapaya ketika file yang diupload oleh kta namanya terpampang maka menggunakan aksi kode seperti berikut :
 
